@@ -46,7 +46,7 @@ class Emscripten < Formula
   # Then use the listed llvm_project_revision for the resource below.
   resource "llvm" do
     url "https://github.com/llvm/llvm-project.git",
-        revision: "5f3c99085d4c2ebf57fd0586b013b02e32a8e20b"
+        revision: "llvmorg-12.0.0-rc2"
   end
 
   def install
